@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LazyPeopleAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6783d24d055f7348cbf3eaa9e99ee5e85733b947")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c2c6ed3b061d321c989cecad967a0ec53fc0566")]
 [assembly: System.Reflection.AssemblyProductAttribute("LazyPeopleAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LazyPeopleAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
