@@ -1,0 +1,29 @@
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: Host=lazydb;Port=5432;Database=lazydb;Username=postgres;Password=postgres
+    depends_on:
+      - db
+    command: >
+      sh -c "dotnet ef database update && dotnet LazyPeopleAPI.dll"
+
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: lazydb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ychung/Desktop/lazypeopleapi/LazyPeopleAPI.csproj": {}
+    "C:\\projects\\lazypeopleapi\\LazyPeopleAPI.csproj": {}
   },
   "projects": {
-    "/Users/ychung/Desktop/lazypeopleapi/LazyPeopleAPI.csproj": {
+    "C:\\projects\\lazypeopleapi\\LazyPeopleAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ychung/Desktop/lazypeopleapi/LazyPeopleAPI.csproj",
+        "projectUniqueName": "C:\\projects\\lazypeopleapi\\LazyPeopleAPI.csproj",
         "projectName": "LazyPeopleAPI",
-        "projectPath": "/Users/ychung/Desktop/lazypeopleapi/LazyPeopleAPI.csproj",
-        "packagesPath": "/Users/ychung/.nuget/packages/",
-        "outputPath": "/Users/ychung/Desktop/lazypeopleapi/obj/",
+        "projectPath": "C:\\projects\\lazypeopleapi\\LazyPeopleAPI.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\lazypeopleapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ychung/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -51,25 +52,21 @@
               "target": "Package",
               "version": "[8.0.*, )"
             },
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.22, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.22, )"
+              "version": "[8.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.22, )"
+              "version": "[8.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.22, )"
+              "version": "[8.0.23, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -77,7 +74,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[10.1.0, )"
             }
           },
           "imports": [
@@ -91,6 +88,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -99,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
