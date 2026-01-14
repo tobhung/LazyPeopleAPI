@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\desktop\\LazyPeopleAPI\\LazyPeopleAPI.csproj": {}
+    "/Users/ychung/Desktop/lazypeopleapi/LazyPeopleAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\desktop\\LazyPeopleAPI\\LazyPeopleAPI.csproj": {
+    "/Users/ychung/Desktop/lazypeopleapi/LazyPeopleAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\desktop\\LazyPeopleAPI\\LazyPeopleAPI.csproj",
+        "projectUniqueName": "/Users/ychung/Desktop/lazypeopleapi/LazyPeopleAPI.csproj",
         "projectName": "LazyPeopleAPI",
-        "projectPath": "C:\\Users\\User\\desktop\\LazyPeopleAPI\\LazyPeopleAPI.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\desktop\\LazyPeopleAPI\\obj\\",
+        "projectPath": "/Users/ychung/Desktop/lazypeopleapi/LazyPeopleAPI.csproj",
+        "packagesPath": "/Users/ychung/.nuget/packages/",
+        "outputPath": "/Users/ychung/Desktop/lazypeopleapi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/ychung/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
